@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class JDBCQueryExecutor {
+public class JDBCQuery {
     private static Connection connection;
     private static String JDBC_DRIVER = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
     private static String JDBC_URL = "jdbc:sqlserver://localhost:1433;database=IJP;TrustServerCertificate=true;";
@@ -13,7 +13,7 @@ public class JDBCQueryExecutor {
     private static String PASSWORD = "Tuanvu1993@";
 
     // Hàm để tạo kết nối đến cơ sở dữ liệu
-    public JDBCQueryExecutor() {
+    public JDBCQuery() {
 
     }
 

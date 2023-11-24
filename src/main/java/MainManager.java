@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Manager {
+public class MainManager {
     private static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         int n;
